@@ -1,0 +1,19 @@
+# ---- secrets / personal data: never commit these ----
+.env
+*.env
+secrets*
+*.secret
+*.key
+*.pem
+id_rsa*
+session.txt
+webtoken.txt
+cookies.txt
+
+# ---- local / runtime ----
+__pycache__/
+*.pyc
+.DS_Store
+*.log
+/tmp/
+back_parameter*
